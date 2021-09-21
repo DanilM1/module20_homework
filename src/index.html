@@ -25,19 +25,18 @@
                     </li>
                 </ul>
                 <form id="app-login-form" class="d-flex">
-                    <input class="form-control me-2" name="login" autocomplete="username" type="text"
+                    <input id="login" class="form-control me-2" name="login" autocomplete="username" type="text"
                         placeholder="Login" aria-label="Login">
-                    <input class="form-control me-2" name="password" autocomplete="current-password" type="password"
+                    <input id="password" class="form-control me-2" name="password" autocomplete="current-password" type="password"
                         placeholder="Password" aria-label="Password">
-                    <button id="app-login-btn" class="btn btn-outline-info" type="submit">Sign In</button>
+                    <button id="app-login-btn1" class="btn btn-outline-info" type="submit">Sign In</button>
+                    <button id="app-login-btn2" class="btn btn-outline-info mx-2" type="submit">Registration</button>
                 </form>
             </div>
         </div>
     </nav>
-    <div class="container">
-        <p id="content">Please Sign In to see your tasks!</p>
-    </div>
 
+    <div id="content"></div>
 
 </body>
 

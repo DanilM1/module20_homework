@@ -7,3 +7,5 @@ export const authUser = function (login, password) {
   appState.currentUser = user;
   return true;
 };
+
+const signIn;
